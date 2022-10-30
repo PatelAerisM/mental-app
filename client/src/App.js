@@ -167,7 +167,8 @@ export default function App() {
     {
       text: 'Github',
       icon: <GitHubIcon />,
-      link: 'https://github.com/nitrotap/mental-health-check',
+      // link: 'https://github.com/nitrotap/mental-health-check',
+      link: 'https://github.com/PatelAerisM',
     }
   ];
 

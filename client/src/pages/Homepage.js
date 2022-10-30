@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        backgroundColor: '#18344A',
+        backgroundColor: '#6e7478',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -55,20 +55,20 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     card: {
-        backgroundColor: '#255070',
+        backgroundColor: '#70254e',
         display: 'flex',
         flexDirection: 'column',
     },
     cardButtons: {
         display: 'flex',
         flexDirection: 'row',
-        backgroundColor: '#255070',
+        backgroundColor: '#e3d5d5',
         justifyContent: 'space-evenly',
         alignItems: 'center',
 
     },
     cardTitle: {
-        color: '#f5f5f5',
+        color: '#ebede6',
         fontSize: '2.5rem',
         textAlign: 'center',
         [theme.breakpoints.down('md')]: {
@@ -78,13 +78,13 @@ const useStyles = makeStyles((theme) => ({
     cardText: {
         fontSize: '1.3rem',
         textAlign: 'center',
-        color: 'white',
+        color: 'black',
         [theme.breakpoints.down('md')]: {
             fontSize: '1rem',
         },
     },
     button: {
-        backgroundColor: '#18344A',
+        backgroundColor: '#4a3518',
         padding: '15px',
         fontSize: '1rem',
     },
@@ -107,19 +107,21 @@ function Homepage() {
 
         <Container className={classes.container}>
             <Typography className={classes.title}>
-                Take the First Step to Better Mental Health
+            Depressika
             </Typography>
             <Grid spacing={10} container sx={{ alignItems: 'center' }}>
                 <Grid item xs={12} md={4}>
                     <CardContent className={classes.card}>
                         <Typography className={classes.text} variant='body1'>
-                            Use Mental Health Check to check-in with yourself and how you're feeling.
+                            {/* Use Mental Health Check to check-in with yourself and how you're feeling. */}
+                            In this modern developing society due to increasing competition, people are facing mental health issues like Anxiety disorders, Depression, Bipolar Disorder, and other mood disorders
                         </Typography>
                         <Typography className={classes.text} variant='body1'>
-                            Mental Health Check uses questions from mental illness screenings, but with Yes/No questions.
+                            {/* Mental Health Check uses questions from mental illness screenings, but with Yes/No questions. */}
+                            Due to these harmful effects, it is important to talk about it openly and need to get it cured. Early detection of depression by collecting opinions will become helpful. 
                         </Typography>
                         <Typography className={classes.text} variant='body1'>
-                            Instead of screening for a diagnosis, Mental Health Check uses those questions to help the user identify their feelings.
+                            {/* Instead of screening for a diagnosis, Mental Health Check uses those questions to help the user identify their feelings. */}
                         </Typography>
                     </CardContent>
                 </Grid>
@@ -141,14 +143,14 @@ function Homepage() {
                         </CardContent>
                         <CardActions className={classes.cardButtons}>
                             {/* change buttons to reactroutes */}
-                            <Button sx={{ backgroundColor: '#18344A', borderColor: 'white', border: 1, fontSize: 30 }}>
+                            <Button sx={{ backgroundColor: '#0a0909', borderColor: 'white', border: 1, fontSize: 30 }}>
                                 <Link to='/quizselect' style={{ textDecoration: 'none' }} >
                                     <span className={classes.buttonTitle} >
-                                        Take the quiz
+                                        Go To quiz
                                     </span>
                                 </Link>
                             </Button>
-                            <Button sx={{ backgroundColor: '#18344A', borderColor: 'white', border: 1, fontSize: 30 }}>
+                            <Button sx={{ backgroundColor: '#0a0909', borderColor: 'white', border: 1, fontSize: 30 }}>
                                 <Link to='/signup' style={{ textDecoration: 'none' }}>
                                     <span className={classes.buttonTitle}>
                                         Create An Account
