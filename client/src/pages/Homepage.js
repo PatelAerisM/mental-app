@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles((theme) => ({
     container: {
-        backgroundColor: '#6e7478',
+        backgroundColor: '#3c81ba',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => ({
         },
     },
     card: {
-        backgroundColor: '#70254e',
+        backgroundColor: '#25706f',
         display: 'flex',
         flexDirection: 'column',
     },

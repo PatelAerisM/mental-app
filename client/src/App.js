@@ -165,10 +165,10 @@ export default function App() {
   const listTwo = [
 
     {
-      text: 'Github',
-      icon: <GitHubIcon />,
+      text: 'Hospital List',
+      icon: <NotesIcon />,
       // link: 'https://github.com/nitrotap/mental-health-check',
-      link: 'https://github.com/PatelAerisM',
+      link: 'https://medicineservice.netlify.app',
     }
   ];
 

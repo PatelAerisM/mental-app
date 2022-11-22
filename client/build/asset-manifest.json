@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d8b30695.css",
-    "main.js": "/static/js/main.16affc9d.js",
+    "main.js": "/static/js/main.d9216dce.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/jumbo.jpg": "/static/media/jumbo.2e2b923581bca6c877db.jpg",
     "static/media/jumbo2.jpg": "/static/media/jumbo2.2e2b923581bca6c877db.jpg",
     "index.html": "/index.html",
     "main.d8b30695.css.map": "/static/css/main.d8b30695.css.map",
-    "main.16affc9d.js.map": "/static/js/main.16affc9d.js.map",
+    "main.d9216dce.js.map": "/static/js/main.d9216dce.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8b30695.css",
-    "static/js/main.16affc9d.js"
+    "static/js/main.d9216dce.js"
   ]
 }
